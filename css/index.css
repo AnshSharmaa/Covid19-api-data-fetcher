@@ -22,7 +22,7 @@ input:focus {
 }
 
 #submit {
-    background-color: #0000FF;
+    background-color: #14a098;
     font-size: 0.8em;
 }
 
@@ -30,11 +30,7 @@ input:focus {
     background-color: #EFF7FF;
 }
 
-li {
-    padding: 10px 100px;
-    color: white;
-    background-color: #0000FF;
-}
+
 /* css for the dynamically added result */
 .ndiv {
     display: flex;
