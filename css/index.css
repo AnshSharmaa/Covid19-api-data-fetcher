@@ -51,13 +51,18 @@ li {
     margin: 20px;
 }
 
+/* For responsive design */
+
 @media (max-width: 550px) {
     #inputHeader {
         display: flex;
         flex-flow: column;
         align-items: center;
     }
-    input{
+    input {
         width: 100%;
+    }
+    .ndiv {
+        width: 300px;
     }
 }
