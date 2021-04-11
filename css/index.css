@@ -1,16 +1,37 @@
 html {
     background: url(../images/bg.jpg) no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Calibri';
+    font-size: 1.2em;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
 }
 
 input {
-    padding: 5px;
+    padding: 7px;
+    margin: 20px;
 }
 
 #submit {
     background-color: #0000FF;
+    font-size: 0.9em;
+}
+
+#country {
+    background-color: #EFF7FF;
 }
 
 #country:focus {
     background-color: #B2DEED;
+}
+
+li {
+    padding: 10px 100px;
+    color: white;
+    background-color: #0000FF;
 }
