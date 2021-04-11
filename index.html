@@ -8,13 +8,16 @@
 
 <body>
     <div id="flex">
-        <form id="inputHeader">
-            <input id="country" type="text" name="cname" id="cname" placeholder="country" required>
+        <div id="inputHeader">
+            <input id="country" type="text" name="cname" placeholder="country" required>
             <input type="date" name="startdate" id="startdate" required>
             <input type="date" name="endtdate" id="endtdate" required>
-            <input id="submit" type="submit" value="submit" required onclick="fetch()">
-        </form>
+            <input id="submit" type="submit" value="submit" required onclick="check()">
+        </div>
+        <div id="demo"></div>
     </div>
+
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
