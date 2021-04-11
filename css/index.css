@@ -1,4 +1,4 @@
-html {
+body {
     background: url(../images/bg.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Calibri';
@@ -50,3 +50,17 @@ li {
 .ndiv span {
     margin: 20px;
 }
+
+@media (max-width: 425px) {
+    #inputHeader {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
