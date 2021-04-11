@@ -17,6 +17,10 @@ input {
     margin: 20px;
 }
 
+input:focus {
+    background-color: #B2DEED;
+}
+
 #submit {
     background-color: #0000FF;
     font-size: 0.8em;
@@ -24,10 +28,6 @@ input {
 
 #country {
     background-color: #EFF7FF;
-}
-
-#country:focus {
-    background-color: #B2DEED;
 }
 
 li {
@@ -40,7 +40,7 @@ li {
     display: flex;
     flex-flow: column;
     text-align: center;
-    background-color: #0000FF;
+    background-color: #14a098;
     color: white;
     margin: 25px 0;
     padding: 0 30px;
