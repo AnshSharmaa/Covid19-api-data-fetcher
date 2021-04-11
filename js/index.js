@@ -22,6 +22,21 @@ function apicall(name, sdate, edate) {
     xhttp.send();
 }
 
-function display(res){
-    console.log(JSON.parse(res));
+function display(res) {
+    //console.log(JSON.parse(res));
+    JSON.parse(res).forEach(e => {
+        build(e);
+    });
+}
+
+function build(e) {
+    console.log(e);
+    //div recieves all the results
+    var main = document.getElementById("result");
+    //ndiv houses result of a day
+    var ndiv = document.createElement("div");
+    ndiv.classList.add("ndiv");
+    ndiv.innerHTML = `<span>Confirmed: ${e.Confirmed}</span><span>Deaths: ${e.Deaths}</span><span>Active: ${e.Active}</span>`
+    main.appendChild(ndiv);
+
 }

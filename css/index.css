@@ -7,7 +7,7 @@ html {
 
 #flex {
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     align-items: center;
     padding-top: 30px;
 }
@@ -34,4 +34,19 @@ li {
     padding: 10px 100px;
     color: white;
     background-color: #0000FF;
+}
+
+.ndiv {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: #0000FF;
+    color: white;
+    margin: 25px 0;
+    padding: 0 30px;
+    width: 500px;
+}
+
+.ndiv span {
+    margin: 20px;
 }
