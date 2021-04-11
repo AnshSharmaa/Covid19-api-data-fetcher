@@ -4,7 +4,7 @@ body {
     font-family: 'Calibri';
     font-size: 1.2em;
 }
-
+/* the css for parent container which sets up the flex for whole content of the site */
 #flex {
     display: flex;
     flex-flow: column;
@@ -35,7 +35,7 @@ li {
     color: white;
     background-color: #0000FF;
 }
-
+/* css for the dynamically added result */
 .ndiv {
     display: flex;
     flex-flow: column;
