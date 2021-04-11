@@ -9,10 +9,10 @@
 <body>
     <div id="flex">
         <form id="inputHeader">
-            <input id="country" type="text" name="cname" id="cname" placeholder="country">
-            <input type="date" name="startdate" id="startdate">
-            <input type="date" name="endtdate" id="endtdate">
-            <input id="submit" type="submit" value="submit">
+            <input id="country" type="text" name="cname" id="cname" placeholder="country" required>
+            <input type="date" name="startdate" id="startdate" required>
+            <input type="date" name="endtdate" id="endtdate" required>
+            <input id="submit" type="submit" value="submit" required onclick="fetch()">
         </form>
     </div>
 </body>
